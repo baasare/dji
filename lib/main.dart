@@ -1,8 +1,8 @@
+import 'package:dji/routes/router.dart' as router;
 import 'package:dji/routes/routes.dart';
 import 'package:dji/utils/app_config.dart';
 import 'package:dji/utils/theme.dart';
 import 'package:flutter/material.dart';
-import 'package:dji/routes/router.dart' as router;
 
 void main() {
   runApp(MyApp());
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       //make flutter aware of app routes using router generator in router.dart file
       onGenerateRoute: router.generateRoute,
 
-      initialRoute: splashViewRoute,
+      initialRoute: welcomeViewRoute,
     );
   }
 }

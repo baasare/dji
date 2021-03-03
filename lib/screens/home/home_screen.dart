@@ -18,6 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     SizeConfig().init(context);
 
+    // ignore: unused_local_variable
     final dashboard = IconButton(
       icon: Icon(
         Feather.menu,
@@ -83,31 +84,36 @@ class _HomeScreenState extends State<HomeScreen> {
         droneName: "Inspire",
         dronePrice: "GHC 142.66",
         droneImage: AvailableImages.inspire_1["assetPath"],
-        droneDescription: "Nam ac neque et lacus ornare volutpat. Proin quis consectetur dolor, fringilla dapibus eros. Mauris eget lectus non ex dignissim mattis.",
+        droneDescription:
+            "Nam ac neque et lacus ornare volutpat. Proin quis consectetur dolor, fringilla dapibus eros. Mauris eget lectus non ex dignissim mattis.",
       ),
       Drone(
-          droneName: "Mavic Pro 2",
-          dronePrice: "GHC 142.66",
-          droneImage: AvailableImages.mavic_1["assetPath"],
-          droneDescription: "Nam ac neque et lacus ornare volutpat. Proin quis consectetur dolor, fringilla dapibus eros. Mauris eget lectus non ex dignissim mattis.",
+        droneName: "Mavic Pro 2",
+        dronePrice: "GHC 142.66",
+        droneImage: AvailableImages.mavic_1["assetPath"],
+        droneDescription:
+            "Nam ac neque et lacus ornare volutpat. Proin quis consectetur dolor, fringilla dapibus eros. Mauris eget lectus non ex dignissim mattis.",
       ),
       Drone(
-          droneName: "Phantom 2",
-          dronePrice: "GHC 142.66",
-          droneImage: AvailableImages.phantom_2["assetPath"],
-        droneDescription: "Nam ac neque et lacus ornare volutpat. Proin quis consectetur dolor, fringilla dapibus eros. Mauris eget lectus non ex dignissim mattis.",
+        droneName: "Phantom 2",
+        dronePrice: "GHC 142.66",
+        droneImage: AvailableImages.phantom_2["assetPath"],
+        droneDescription:
+            "Nam ac neque et lacus ornare volutpat. Proin quis consectetur dolor, fringilla dapibus eros. Mauris eget lectus non ex dignissim mattis.",
       ),
       Drone(
-          droneName: "Phantom 3 SE",
-          dronePrice: "GHC 142.66",
-          droneImage: AvailableImages.phantom_3_se_1["assetPath"],
-          droneDescription: "Nam ac neque et lacus ornare volutpat. Proin quis consectetur dolor, fringilla dapibus eros. Mauris eget lectus non ex dignissim mattis.",
+        droneName: "Phantom 3 SE",
+        dronePrice: "GHC 142.66",
+        droneImage: AvailableImages.phantom_3_se_1["assetPath"],
+        droneDescription:
+            "Nam ac neque et lacus ornare volutpat. Proin quis consectetur dolor, fringilla dapibus eros. Mauris eget lectus non ex dignissim mattis.",
       ),
       Drone(
-          droneName: "Phantom 4 pro",
-          dronePrice: "GHC 142.66",
-          droneImage: AvailableImages.phantom_4_pro_1["assetPath"],
-        droneDescription: "Nam ac neque et lacus ornare volutpat. Proin quis consectetur dolor, fringilla dapibus eros. Mauris eget lectus non ex dignissim mattis.",
+        droneName: "Phantom 4 pro",
+        dronePrice: "GHC 142.66",
+        droneImage: AvailableImages.phantom_4_pro_1["assetPath"],
+        droneDescription:
+            "Nam ac neque et lacus ornare volutpat. Proin quis consectetur dolor, fringilla dapibus eros. Mauris eget lectus non ex dignissim mattis.",
       ),
     ];
 

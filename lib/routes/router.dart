@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
+  // ignore: unused_local_variable
   final Map<String, dynamic> arguments = settings.arguments;
   switch (settings.name) {
     case welcomeViewRoute:

@@ -155,6 +155,7 @@ class _DroneDetailScreenState extends State<DroneDetailScreen> {
                         Container(
                           height: SizeConfig.blockSizeVertical * 2.5,
                           width: SizeConfig.blockSizeHorizontal * 10,
+                          // ignore: deprecated_member_use
                           child: OutlineButton(
                             color: Colors.blueGrey,
                             disabledBorderColor: Colors.blueGrey,
@@ -184,15 +185,14 @@ class _DroneDetailScreenState extends State<DroneDetailScreen> {
                         )
                       ],
                     ),
+                    // ignore: deprecated_member_use
                     OutlineButton(
                       color: Colors.black,
                       disabledBorderColor: Colors.black,
                       child: Text(
                         "Buy Now",
                         style: TextStyle(
-                          color: Colors.black,
-                          fontWeight: FontWeight.w600
-                        ),
+                            color: Colors.black, fontWeight: FontWeight.w600),
                       ),
                       onPressed: null,
                       borderSide: BorderSide(
